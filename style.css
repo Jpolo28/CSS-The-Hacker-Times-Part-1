@@ -27,16 +27,22 @@ header h1 {
 nav {
     position: sticky;
     top: 0px;
+    text-align: left;
+
 }
 nav ul {
     bottom: 1em;
-    height: 1.5em;
+    height: 2em;
     width: 700px;
     margin:auto;
-    border: 1em #eee;
+    border: 1px rgba(119, 119, 119, 0.742);
+    border-style: solid none;
     list-style-type: none;
-    font-size: small;
+    font-size: medium;
     background-color: white;
+    text-align: left;
+    padding-inline-start: 0px;
+    padding-top: 5px;
 }
 nav a:link{
     text-decoration: none;
@@ -52,7 +58,8 @@ li {
 }
 main {
     width: 600px;
-    text-align: left;
+    text-align: justify;
+    text-justify: inter-word;
 }
 main h5{
     color: #dd3232;
